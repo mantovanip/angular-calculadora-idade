@@ -16,4 +16,7 @@ export class AppComponent {
     this.result_month = this.result * 12;
     this.result_days = this.result_month * 365;
   }
+  limpar(){
+    this.result = 0;
+  }
 }
