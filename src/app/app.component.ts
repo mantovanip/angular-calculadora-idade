@@ -7,13 +7,8 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   public ano_nasc: number = 0;
-
-  public idade: number = 0;
-
   public result: number = 0;
-
   public result_month: number = 0;
-
   public result_days: number = 0;
 
   calcular() {
