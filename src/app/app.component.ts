@@ -19,6 +19,6 @@ export class AppComponent {
   calcular() {
     this.result = 2022 - this.ano_nasc;
     this.result_month = this.result * 12;
-    this.result_days = this.result * 30;
+    this.result_days = this.result * 365;
   }
 }
